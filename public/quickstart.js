@@ -8,7 +8,7 @@
   var device;
 
   log('Requesting Capability Token...');
-  $.getJSON('https://YOUR_FUNCTION_SUBDOMAIN_HERE.twil.io/capability-token')
+  $.getJSON('https://sand-caiman-4306.twil.io/capability-token')
     .then(function (data) {
       log('Got a token.');
       console.log('Token: ' + data.token);
